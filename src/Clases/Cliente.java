@@ -12,7 +12,7 @@ public class Cliente implements Runnable
     private DataInputStream in;
     private DataOutputStream out;
     private int puerto = 1234;
-    private String host = "192.168.43.133";
+    private String host = "192.168.117.149";
     private String mensajes = "";
     JEditorPane panel;
     

@@ -17,9 +17,9 @@ public class Cliente implements Runnable
     private DataInputStream in;
     private DataOutputStream out;
     //El puerto debe ser el mismo en el que escucha el servidor
-    private int puerto = 2027;
+    private int puerto = 1234;
     //Si estamos en nuestra misma maquina usamos localhost si no la ip de la maquina servidor
-    private String host = "localhost";
+    private String host = "192.168.117.149";
     private String mensajes = "";
     JEditorPane panel;
     
